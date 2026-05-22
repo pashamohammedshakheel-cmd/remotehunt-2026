@@ -1,0 +1,24 @@
+{
+  "name": "remotehunt-2026",
+  "version": "2.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "4.18.2",
+    "cors": "2.8.5",
+    "axios": "1.6.5",
+    "dotenv": "16.3.1",
+    "bcryptjs": "2.4.3",
+    "jsonwebtoken": "9.0.2",
+    "uuid": "9.0.1",
+    "multer": "1.4.5-lts.1",
+    "node-cache": "5.1.2"
+  }
+}
